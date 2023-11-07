@@ -5,15 +5,15 @@
 }
 
 .mycontainer {
-  width: calc(100% - 402px);
+  width: 1500px;
 }
 
 nav {
   background-color: #007878;
   padding: 12px 0 12px 0;
+  width: 100%;
 }
 nav .mycontainer {
-  width: calc(100% - 402px);
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -23,10 +23,6 @@ nav .mycontainer .phone {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-nav .mycontainer .phone img {
-  width: 24px;
-  height: 24px;
 }
 nav .mycontainer .phone span {
   margin-left: 14px;
@@ -54,6 +50,9 @@ nav .mycontainer ul :last-child {
   padding-right: 0;
 }
 
+.navbar {
+  width: 100%;
+}
 .navbar .mycontainer {
   margin: auto;
 }
@@ -83,7 +82,7 @@ nav .mycontainer ul :last-child {
   width: 504px;
   height: 48px;
   border-radius: 8px;
-  background: #F7F9FC;
+  background: #f7f9fc;
   margin-right: 57px;
   padding: 15px 0px 14px 16px;
 }
@@ -96,7 +95,7 @@ nav .mycontainer ul :last-child {
   padding-right: 26px;
 }
 .navbar .mycontainer .search .right ul li span {
-  color: #2E2E2E;
+  color: #2e2e2e;
   font-family: Poppins;
   font-size: 14px;
   font-weight: 500;
@@ -112,9 +111,6 @@ nav .mycontainer ul :last-child {
 .navbar .mycontainer .search .right ul p {
   margin: 0;
 }
-.navbar .mycontainer .bag_categories {
-  width: calc(100% - px);
-}
 .navbar .mycontainer .bag_categories ul {
   list-style: none;
   display: flex;
@@ -122,9 +118,9 @@ nav .mycontainer ul :last-child {
   align-items: center;
   margin-top: 35px;
   padding-left: 0;
+  width: 950px;
 }
 .navbar .mycontainer .bag_categories ul li {
-  margin-right: 54px;
   color: #273142;
   font-family: Poppins;
   font-size: 16px;
@@ -134,4 +130,92 @@ nav .mycontainer ul :last-child {
 }
 .navbar .mycontainer .bag_categories ul :last-child {
   margin-right: 0;
+}
+
+.pink_section {
+  margin: 0 auto;
+  background: #ffe2e0;
+}
+.pink_section .mycontainer {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.pink_section .mycontainer .shopbtn {
+  width: 192px;
+  height: 52px;
+  border-radius: 8px;
+  background-color: #206363;
+  color: #ffffff;
+}
+.pink_section .mycontainer .left .left,
+.pink_section .mycontainer .left h1 {
+  width: 415px;
+  height: 68px;
+  color: #212121;
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.pink_section .mycontainer .left h2 {
+  color: #df4244;
+  width: 88px;
+  height: 41px;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.pink_section .mycontainer .left p {
+  width: 453px;
+  height: 81px;
+  color: rgb(117, 117, 117);
+  /* color:  #212121; */
+  margin-bottom: 48px;
+}
+
+.grey_section {
+  padding: 48px 0;
+  background: #f7f7f7;
+}
+.grey_section .mycontainer {
+  margin: auto;
+}
+.grey_section .mycontainer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 0;
+}
+
+.four_slider {
+  padding-top: 80px;
+}
+.four_slider .mycontainer {
+  margin: auto;
+}
+.four_slider .mycontainer .row .card {
+  width: 250px;
+  height: 200px;
+}
+.four_slider .mycontainer .row .card .card_header {
+  margin: 0;
+  padding: 24px 0 0 24px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 30.6px */
+}
+.four_slider .mycontainer .row .card img {
+  width: 163px;
+  height: 145px;
 }/*# sourceMappingURL=main.css.map */
