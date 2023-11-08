@@ -52,6 +52,7 @@ nav {
 // NAVBAR style start
 .navbar {
   width: 100%;
+
   .mycontainer {
     margin: auto;
 
@@ -66,7 +67,7 @@ nav {
       .right,
       .right ul {
         display: flex;
-        // justify-content: space-between;
+        justify-content: space-between;
         align-items: center;
       }
 
@@ -87,7 +88,7 @@ nav {
           border-radius: 8px;
           background: #f7f9fc;
           // background-color: blue;
-          margin-right: 57px;
+          // margin-right: 57px;
           padding: 15px 0px 14px 16px;
         }
       }
@@ -108,11 +109,6 @@ nav {
               font-weight: 500;
               line-height: 120%;
               // background-color: red;
-            }
-
-            img {
-              width: 24px;
-              height: 24px;
             }
           }
 
@@ -136,6 +132,7 @@ nav {
         margin-top: 35px;
         padding-left: 0;
         width: 950px;
+
         li {
           color: #273142;
           font-family: Poppins;
@@ -153,4 +150,3 @@ nav {
   }
 }
 
-// BAGS SECTION PINK
